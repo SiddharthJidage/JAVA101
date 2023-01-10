@@ -28,8 +28,9 @@ public class ControlFlowApp {
         //Switch statements:
         switch (energyEfficiencyCategory){
             case 'A':
+                System.out.println("Very lower energy consumption.");
             case 'B':
-                System.out.println("Lower energy consumption.");
+                System.out.println("Low energy consumption.");
                 break;
             case 'G':
                 System.out.println("Higher energy consumption.");
